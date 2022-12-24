@@ -1,1 +1,2 @@
-# js-lessons
+# Javascript examples and lessons
+
