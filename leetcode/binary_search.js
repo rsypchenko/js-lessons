@@ -4,8 +4,6 @@ var search = function (nums, target) {
     while (low <= high) {
         let mid = ~~(low + (high - low) / 2);
 
-        console.log(mid);
-
         if (nums[mid] > target) high = --mid;
         else if (nums[mid] < target) low = ++mid;
         else return mid;
